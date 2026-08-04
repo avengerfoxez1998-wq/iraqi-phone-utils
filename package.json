@@ -1,0 +1,44 @@
+{
+  "name": "iraqi-phone-utils",
+  "version": "0.1.0",
+  "description": "A lightweight TypeScript utility for validating, normalizing, formatting, and masking Iraqi mobile phone numbers.",
+  "license": "MIT",
+  "author": "Bassam Shihab",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run build && npm run test"
+  },
+  "keywords": [
+    "iraq",
+    "iraqi",
+    "phone",
+    "mobile",
+    "phone-number",
+    "validation",
+    "normalization",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avengerfoxez1998-wq/iraqi-phone-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avengerfoxez1998-wq/iraqi-phone-utils/issues"
+  },
+  "homepage": "https://github.com/avengerfoxez1998-wq/iraqi-phone-utils#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
